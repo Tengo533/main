@@ -1,0 +1,74 @@
+body {
+    background-color: white;
+}
+a {
+    text-decoration: none;
+    color: rgb(192, 24, 192);
+    padding-left:20px;
+
+}
+.menu_bar {
+    text-align: right;
+    background: pink;
+    height: 60px;
+}
+.menu_options {
+    padding-top: 10px;
+    padding-right: 20px;
+    font-size: 30px;
+    color: rgb(192, 24, 192);
+}
+
+.title_content {
+    padding: 1px;
+
+}
+
+.title {
+    text-align: center;
+    font-family: Helvetica;
+}
+.center {
+    font-size: 90px;
+    color: rgb(192, 24, 192);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.motto {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content {
+    font-family: Helvetica;
+}
+
+.list1 {
+    border: solid pink 2px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.donutimg {
+    border: solid pink 2px;
+    padding: 20px;
+}
+
+#title_img {
+    width: auto;
+    height: 700px;
+    border: solid palevioletred 3px;
+
+}
+
+#motto {
+    font-size: 30px;
+    color: white;
+
+}
