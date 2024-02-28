@@ -1,0 +1,2 @@
+DEBUG 2023-10-18 16:43:18,568 - Passed in values: A=1, B=2, C=3
+DEBUG 2023-10-18 16:43:18,569 - #discriminant

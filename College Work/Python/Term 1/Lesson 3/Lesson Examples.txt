@@ -1,0 +1,83 @@
+Default page example:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <h3>Imperial Donuts</h3>
+        <p>We are opening a store in Hastings!</p>
+        <p>Where next?</p>
+    </body>
+</html>
+
+Unordered/Ordered list:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello world!</title>
+    </head>
+    <body>
+
+        <p>Kingdom's in Westeros:</p>
+
+        <ul>
+            <li>Dorne</li>
+            <li>The North</li>
+            <li>The Vale</li>
+        </ul>
+
+        <p>How to win the Iron Throne:</p>
+        <ol>
+            <li>Make alliances!</li>
+            <li>Have them declare their armies for you!</li>
+            <li>Feed the troops!</li>
+            <li>March to King's Landing!</li>
+        </ol>
+    </body>
+</html>
+
+Adding images:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World!</title> <!--Comment-->
+    </head>
+    <body>
+        <p>This is an explosion</p>
+        <img src="photos/explosion.jfif" alt="explosion">
+
+    </body>
+</html>
+
+Combanation Example (Donuts website):
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Imperial Donuts!</title>
+    </head>
+    <body>
+
+        <h2>Imperial Donuts.</h2>
+
+        <p><i>Donuts you can believe in!</i></p>
+
+        <h4>Our delicious donuts include:</h4>
+
+        <ul>
+            <li>Sugar donut!</li>
+            <li>Maple Donut!</li>
+            <li>Chocolate Donut!</li>
+            <li>Jam-filled Donut!</li>
+            <li>Sprinkles & Iced Donut.</li>
+        </ul>
+
+        <img src="Photos/donut1.jfif" height="300px" width="300px">
+        <img src="Photos/donut2.jfif" height="300px" width="300px">
+
+    </body>
+</html>
