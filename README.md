@@ -1,1 +1,1 @@
-mega balls
+This repo is a portfolio for all of my work during my time at college.
