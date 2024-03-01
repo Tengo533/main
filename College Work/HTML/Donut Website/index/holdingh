@@ -1,0 +1,17 @@
+        <div class="list1">
+            <p>Donuts you believe in!</p>
+
+            <ul>
+                <li>Sugar Donut!</li>
+                <li>Maple Donut!</li>
+                <li>Chocolate Donut!</li>
+                <li>Jam-Filled Donut!</li>
+                <li>Sprinkles & Iced Donut</li>
+            </ul>
+        </div>
+        <div class="donutimg">        
+            <img src="Images\donut1.jpg" alt="Dount1">
+            <p>This is an image of one of our famous sprinkle donuts!</p>
+            <a href="https://en.wikipedia.org/wiki/Doughnut" target="_blank"><img src="Images\donut2.jpg" alt="Donut2"></a>
+            <a href="location.html" target="_blank">Where to find us!</a>
+        </div>
