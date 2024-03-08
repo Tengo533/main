@@ -2,16 +2,19 @@ body {
     background-color: white;
     font-family: Helvetica;
 }
-#menu_item {
+.menu_item {
     text-decoration: none;
     color: rgb(192, 24, 192);
     padding-left:20px;
-
 }
 .menu_bar {
-    text-align: right;
-    background: pink;
-    height: 60px;
+    position: fixed; /* This will make the menu stick to the top of the viewport */
+    top: 0; /* Position it at the top */
+    left: 0; /* Align it to the left */
+    width: 100%; /* Make it full width */
+    background-color: pink; /* Add background color */
+    z-index: 1000; /* Set a high z-index to ensure it appears on top of other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for better visibility */
 }
 .menu_options {
     padding-top: 10px;
@@ -95,5 +98,106 @@ text-align: center;
 #motto {
     font-size: 30px;
     color: white;
+
+}
+
+.about {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    color: rgb(192, 24, 192);
+}
+
+.about p {
+    color: palevioletred;
+    margin-bottom: 15px;
+}
+
+.gallery_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.desc {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 5px;
+}
+
+.donuts {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.donuts h2 {
+    color: rgb(192, 24, 192);
+
+}
+
+.donuts p {
+    color: palevioletred;
+    margin-bottom: 15px;
+}
+
+.donuts ul{
+    color: palevioletred;
+}
+
+.stores {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.stores h2 {
+    color: rgb(192, 24, 192);
+}
+
+.stores p {
+    color: palevioletred;
+}
+
+.stores th,td{
+    color: palevioletred;
+    border: 1px solid palevioletred;
+    border-radius: 2px;
+    padding: 5px;
+}
+.stores th {
+    padding: 5px;
+}
+.stores table {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid palevioletred;
 
 }
