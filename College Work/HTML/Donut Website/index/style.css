@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-image:linear-gradient(rgb(192, 24, 192), white);
     font-family: Helvetica;
 }
 .menu_item {
@@ -28,26 +28,40 @@ body {
 
 }
 
-.title {
-    text-align: center;
-    font-family: Helvetica;
+.title_content {
+    position: relative;
 }
-.center {
+
+.title {
+    font-family: Helvetica;
     font-size: 90px;
     color: rgb(192, 24, 192);
+    text-align: center;
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    background-color: palevioletred;
+    padding: 20px;
+    border: 1px solid palevioletred; /* Border color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 }
+
 .motto {
     font-size: 40px;
     color: white;
+    text-align: center;
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: palevioletred;
+    padding: 10px;
+    border: 1px solid palevioletred; /* Border color */
+    margin-top: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 }
 .content {
     font-family: Helvetica;
@@ -200,4 +214,24 @@ text-align: center;
     padding: 10px;
     border: 1px solid palevioletred;
 
+}
+
+.contact {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
+}
+
+.contact h2 {
+    color: rgb(192, 24, 192);
+}
+
+.contact form {
+    color: rgb(192, 24, 192);
+    background-color: palevioletred;
+    border-radius: 20px;
+    padding: 20px;
 }

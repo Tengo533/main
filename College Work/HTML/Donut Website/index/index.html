@@ -8,139 +8,156 @@
 </head>
 <body>
 
-<div class="menu_bar">
-    <div class="menu_options">
-        <a class="menu_item" href="#about">About</a>
-        <a class="menu_item" href="#donuts">Donuts</a>
-        <a class="menu_item" href="#stores">Stores</a>
-        <a class="menu_item" href="contact">Contact</a>
+    <div class="menu_bar">
+        <div class="menu_options">
+            <a class="menu_item" href="#about">About</a>
+            <a class="menu_item" href="#donuts">Donuts</a>
+            <a class="menu_item" href="#stores">Stores</a>
+            <a class="menu_item" href="#contact">Contact</a>
+        </div>
     </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $(document).ready(function(){
-        // Smooth scrolling for all anchor links
-        $("a").on('click', function(event) {
-            if (this.hash !== "") {
-                event.preventDefault();
-                var hash = this.hash;
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800, function(){
-                    window.location.hash = hash;
-                });
-            }
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Smooth scrolling for all anchor links
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
         });
-    });
-</script>
+    </script>
 
-<div class="title_content">
-    <img id="title_img" src="Images/title.png" alt="Title image" style="width:100%;">
-    <div class="title">    
-        <div class="center">Imperial Donuts</div>
-        <div class="motto">Voted best donuts in the world!</div>
-    </div>
-</div>
-
-<div id="about"class="about">
-    <div>
-        <h2>About Us</h2>
-        <p>Welcome to our donut paradise! We are passionate about creating the most delicious and mouthwatering donuts you'll ever taste. Our mission is to take your taste buds on an unforgettable journey filled with fluffy, flavorful, and freshly-made treats.</p>
-        <p>At Imperial Donuts, we use only the finest ingredients to craft our donuts. From classic glazed to unique and creative flavors, our menu has something to satisfy every donut lover's cravings.</p>
-        <p>Whether you're visiting us in-store or ordering online, our friendly staff is dedicated to providing exceptional service and making your donut experience extra special. We believe that each bite should be a moment of pure joy and happiness!</p>    
-        <p>Join us on this sweet adventure and indulge in the heavenly flavors of our delectable donut creations. We can't wait to share the joy of donuts with you!</p>
-    </div>
-
-    <div class="gallery_container">
-        <div class="gallery">
-            <a target="_blank" href="Images/store1.png">
-            <img src="Images/store1.png" alt="Store 1" width="600" height="400">
-            </a>
-            <div class="desc">1234 Elm Street, Springfield, MA 01103, USA</div>
-        </div>
-        <div class="gallery">
-            <a target="_blank" href="Images/store2.png">
-            <img src="Images/store2.png" alt="Store 2" width="600" height="400">
-            </a>
-            <div class="desc">5678 Maple Avenue, Lakeside, CA 92040, USA</div>
-        </div>
-        <div class="gallery">
-            <a target="_blank" href="Images/store3.png">
-            <img src="Images/store3.png" alt="Store 3" width="600" height="400">
-            </a>
-            <div class="desc">9101 Pine Street, Mountain View, CO 80212, USA</div>
-        </div>
-        <div class="gallery">
-            <a target="_blank" href="Images/store4.png">
-            <img src="Images/store4.png" alt="Store 4" width="600" height="400">
-            </a>
-            <div class="desc">2468 Oak Lane, Sunnyside, NY 11104, USA</div>
+    <div class="title_content">
+        <img id="title_img" src="Images/title.png" alt="Title image" style="width:100%;">
+        <div class="title">    
+            <div class="center">Imperial Donuts</div>
+            <div class="motto">Voted best donuts in the world!</div>
         </div>
     </div>
-</div>
 
-<div id="donuts"class="donuts">
-    <div>
-        <h2>Donuts</h2>
-        <p>This is a list of our delicious donuts and what they contain!</p>
-        <ul>
-            <li><b>Glazed Donut</b></li>
-                <ul>
-                    <li>Ingredients: Flour, sugar, yeast, milk, butter, eggs, vanilla extract, powdered sugar (for glaze).</li><br>
-                </ul>
-            <li><b>Chocolate Donut</b></li>
-                <ul>
-                    <li>Ingredients: Flour, sugar, cocoa powder, baking powder, salt, milk, eggs, butter, vanilla extract, powdered sugar (for glaze).</li><br>
-                </ul>
-            <li><b>Jelly-Filled Donut</b></li>
-                <ul>
-                    <li>Ingredients: Flour, sugar, yeast, milk, butter, eggs, vanilla extract, fruit jelly (strawberry, raspberry, etc.), powdered sugar (optional).</li><br>
-                </ul>
-            <li><b>Boston Cream Donut</b></li>
-                <ul>
-                    <li>Ingredients: Flour, sugar, yeast, milk, butter, eggs, vanilla extract, custard filling (milk, egg yolks, sugar, cornstarch), chocolate glaze.</li><br>
-                </ul>
-        </ul>
+    <div id="about"class="about">
+        <div>
+            <h2>About Us</h2>
+            <p>Welcome to our donut paradise! We are passionate about creating the most delicious and mouthwatering donuts you'll ever taste. Our mission is to take your taste buds on an unforgettable journey filled with fluffy, flavorful, and freshly-made treats.</p>
+            <p>At Imperial Donuts, we use only the finest ingredients to craft our donuts. From classic glazed to unique and creative flavors, our menu has something to satisfy every donut lover's cravings.</p>
+            <p>Whether you're visiting us in-store or ordering online, our friendly staff is dedicated to providing exceptional service and making your donut experience extra special. We believe that each bite should be a moment of pure joy and happiness!</p>    
+            <p>Join us on this sweet adventure and indulge in the heavenly flavors of our delectable donut creations. We can't wait to share the joy of donuts with you!</p>
+        </div>
+
+        <div class="gallery_container">
+            <div class="gallery">
+                <a target="_blank" href="Images/store1.png">
+                <img src="Images/store1.png" alt="Store 1" width="600" height="400">
+                </a>
+                <div class="desc">1234 Elm Street, Springfield, MA 01103, USA</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="Images/store2.png">
+                <img src="Images/store2.png" alt="Store 2" width="600" height="400">
+                </a>
+                <div class="desc">5678 Maple Avenue, Lakeside, CA 92040, USA</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="Images/store3.png">
+                <img src="Images/store3.png" alt="Store 3" width="600" height="400">
+                </a>
+                <div class="desc">9101 Pine Street, Mountain View, CO 80212, USA</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="Images/store4.png">
+                <img src="Images/store4.png" alt="Store 4" width="600" height="400">
+                </a>
+                <div class="desc">2468 Oak Lane, Sunnyside, NY 11104, USA</div>
+            </div>
+        </div>
     </div>
-</div>
 
-<div id="stores" class="stores">
-    <div>
-        <h2>Stores</h2>
-        <p>This is a tables of all our stores across the <b>USA</b>, it has information on the location, size and seating size!</p>
-        <table>
-            <tr>
-                <th>Store</th>
-                <th>Location</th>
-                <th>Size</th>
-                <th>Seating Size</th>
-            </tr>
-            <tr>
-                <td>Store 1</td>
-                <td>1234 Elm Street, Springfield, MA 01103, USA</td>
-                <td>1000 sq. ft.</td>
-                <td>20 seats</td>
-            </tr>
-            <tr>
-                <td>Store 2</td>
-                <td>5678 Maple Avenue, Lakeside, CA 92040, USA</td>
-                <td>800 sq. ft.</td>
-                <td>15 seats</td>
-            </tr>
-            <tr>
-                <td>Store 3</td>
-                <td>9101 Pine Street, Mountain View, CO 80212, USA</td>
-                <td>1200 sq. ft.</td>
-                <td>25 seats</td>
-            </tr>
-            <tr>
-                <td>Store 4</td>
-                <td>2468 Oak Lane, Sunnyside, NY 11104, USA</td>
-                <td>1500 sq. ft.</td>
-                <td>30 seats</td>
-            </tr>
-        </table>
+    <div id="donuts"class="donuts">
+        <div>
+            <h2>Donuts</h2>
+            <p>This is a list of our delicious donuts and what they contain!</p>
+            <ul>
+                <li><b>Glazed Donut</b></li>
+                    <ul>
+                        <li>Ingredients: Flour, sugar, yeast, milk, butter, eggs, vanilla extract, powdered sugar (for glaze).</li><br>
+                    </ul>
+                <li><b>Chocolate Donut</b></li>
+                    <ul>
+                        <li>Ingredients: Flour, sugar, cocoa powder, baking powder, salt, milk, eggs, butter, vanilla extract, powdered sugar (for glaze).</li><br>
+                    </ul>
+                <li><b>Jelly-Filled Donut</b></li>
+                    <ul>
+                        <li>Ingredients: Flour, sugar, yeast, milk, butter, eggs, vanilla extract, fruit jelly (strawberry, raspberry, etc.), powdered sugar (optional).</li><br>
+                    </ul>
+                <li><b>Boston Cream Donut</b></li>
+                    <ul>
+                        <li>Ingredients: Flour, sugar, yeast, milk, butter, eggs, vanilla extract, custard filling (milk, egg yolks, sugar, cornstarch), chocolate glaze.</li><br>
+                    </ul>
+            </ul>
+        </div>
+    </div>
 
+    <div id="stores" class="stores">
+        <div>
+            <h2>Stores</h2>
+            <p>This is a tables of all our stores across the <b>USA</b>, it has information on the location, size and seating size!</p>
+            <table>
+                <tr>
+                    <th>Store</th>
+                    <th>Location</th>
+                    <th>Size</th>
+                    <th>Seating Size</th>
+                </tr>
+                <tr>
+                    <td>Store 1</td>
+                    <td>1234 Elm Street, Springfield, MA 01103, USA</td>
+                    <td>1000 sq. ft.</td>
+                    <td>20 seats</td>
+                </tr>
+                <tr>
+                    <td>Store 2</td>
+                    <td>5678 Maple Avenue, Lakeside, CA 92040, USA</td>
+                    <td>800 sq. ft.</td>
+                    <td>15 seats</td>
+                </tr>
+                <tr>
+                    <td>Store 3</td>
+                    <td>9101 Pine Street, Mountain View, CO 80212, USA</td>
+                    <td>1200 sq. ft.</td>
+                    <td>25 seats</td>
+                </tr>
+                <tr>
+                    <td>Store 4</td>
+                    <td>2468 Oak Lane, Sunnyside, NY 11104, USA</td>
+                    <td>1500 sq. ft.</td>
+                    <td>30 seats</td>
+                </tr>
+            </table>
+        </div>
+    </div>
 
+    <div id="contact"class="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
 </body>
 </html>
