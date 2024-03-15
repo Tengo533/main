@@ -1,0 +1,42 @@
+SET count TO 0
+SET score TO 0
+SET total_score TO 0
+
+WHILE True
+	OUTPUT "Enter total exam count: "
+	INPUT count
+	IF count == INTEGER
+		BREAK OUT OF LOOP
+	END IF
+	
+	OUTPUT "Enter a number"
+
+FOR RANGE 0 TO count
+	OUTPUT "Enter score for exam {RANGE}: "
+	INPUT score
+
+	IF score != INTEGER
+		OUTPUT "Enter a number"
+		RESET LOOP
+	END IF
+
+	total_score = total_score + score
+END FOR
+
+SET average TO total_score / count
+
+IF average >= 90
+	OUTPUT "Grade A"
+END IF
+
+ELSE IF average >=80
+	OUTPUT "Grade B"
+END ELSE IF
+
+ELSE IF average >= 60
+	OUTPUT "Grade C"
+END ELSE IF
+
+ELSE
+	OUTPUT "Grade F"
+END ELSE 
